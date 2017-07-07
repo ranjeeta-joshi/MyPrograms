@@ -62,8 +62,8 @@ class Subnet(object):
     def get_subnetmask(self):
         """
         This Method convert CIDR notation of subnet mask to
-        dot decimal notation of subnet mask
-        i.e., /24 to 255.255.255.0
+        dotted decimal notation of subnet mask
+        i.e., prefix length 24 to subnetmask 255.255.255.0
 
         :return (str): Subnet mask in dotted decimal format.
         """
